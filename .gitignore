@@ -22,6 +22,7 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 *.xcworkspace
+*.DS_Store
 
 ## Obj-C/Swift specific
 *.hmap
@@ -29,7 +30,7 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
-#RN
+##RN
 #
 node_modules/
 
