@@ -7,7 +7,6 @@
 //
 
 #import "RNViewController.h"
-
 @interface RNViewController ()
 
 @end
