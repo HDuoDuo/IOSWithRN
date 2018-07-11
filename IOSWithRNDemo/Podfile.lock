@@ -22,12 +22,15 @@ PODS:
     - React/PrivateDatabase
   - React/jsinspector (0.56.0)
   - React/PrivateDatabase (0.56.0)
+  - React/RCTText (0.56.0):
+    - React/Core
   - yoga (0.56.0.React)
 
 DEPENDENCIES:
   - Folly (from `./RN/node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - React/Core (from `./RN/node_modules/react-native`)
   - React/CxxBridge (from `./RN/node_modules/react-native`)
+  - React/RCTText (from `./RN/node_modules/react-native`)
   - yoga (from `./RN/node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
@@ -46,6 +49,6 @@ SPEC CHECKSUMS:
   React: bdb39c05e2eed10a43056cff89a68bc9ebe7f232
   yoga: 2418c171de153cbe3c94dc28c3bf691b1695ae17
 
-PODFILE CHECKSUM: 809ba421abd622708f28a94ee45ec7ddd786dd75
+PODFILE CHECKSUM: 39e4b0988d47c280253db90242febefc751b32fc
 
 COCOAPODS: 1.3.1

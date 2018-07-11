@@ -7,6 +7,8 @@
 //
 
 #import "RNViewController.h"
+#import <React/RCTRootView.h>
+
 @interface RNViewController ()
 
 @end
@@ -15,8 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor grayColor];
     // Do any additional setup after loading the view.
+    NSURL *jsCodeLocation;
+    jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.bundle?platform=ios&dev=true"];
+    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                        moduleName:@"IOSWithRNDemo"
+                                                 initialProperties:nil
+                                                     launchOptions:nil];
+    rootView.frame = self.view.frame;
+    [self.view addSubview:rootView];
+    
 }
 
 - (void)didReceiveMemoryWarning {

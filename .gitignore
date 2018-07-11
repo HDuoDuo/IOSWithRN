@@ -22,6 +22,7 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 *.xcworkspace
+
 *.DS_Store
 
 ## Obj-C/Swift specific
@@ -33,6 +34,7 @@ xcuserdata/
 ##RN
 #
 node_modules/
+*.vscode/
 
 # CocoaPods
 #
@@ -67,3 +69,4 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+

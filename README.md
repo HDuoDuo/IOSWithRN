@@ -32,6 +32,7 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 pod 'React', :path => ‘./RN/node_modules/react-native', :subspecs => [
 'Core’,
 ‘CxxBridge’,
+’RCTText',
 ]
 pod ‘yoga', :path => ‘./RN/node_modules/react-native/ReactCommon/yoga'
 pod 'Folly', :podspec => ‘./RN/node_modules/react-native/third-party-podspecs/Folly.podspec'

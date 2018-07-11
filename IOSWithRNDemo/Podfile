@@ -10,6 +10,7 @@ use_frameworks!
   pod 'React', :path => ‘./RN/node_modules/react-native', :subspecs => [
   'Core’,
   ‘CxxBridge’,
+  ’RCTText',
   ]
   pod ‘yoga', :path => ‘./RN/node_modules/react-native/ReactCommon/yoga'
   pod 'Folly', :podspec => ‘./RN/node_modules/react-native/third-party-podspecs/Folly.podspec'
