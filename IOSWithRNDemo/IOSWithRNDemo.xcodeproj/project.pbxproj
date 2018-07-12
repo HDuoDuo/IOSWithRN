@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101AF33993159FB6797218B3 /* libPods-IOSWithRNDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F61FF9760F0860B5652C3966 /* libPods-IOSWithRNDemo.a */; };
 		42DDEA5220F1E68700720A56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDEA5120F1E68700720A56 /* AppDelegate.m */; };
 		42DDEA5520F1E68700720A56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDEA5420F1E68700720A56 /* ViewController.m */; };
 		42DDEA5820F1E68700720A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DDEA5620F1E68700720A56 /* Main.storyboard */; };
@@ -16,7 +17,6 @@
 		42DDEA6A20F1E68700720A56 /* IOSWithRNDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDEA6920F1E68700720A56 /* IOSWithRNDemoTests.m */; };
 		42DDEA7520F1E68700720A56 /* IOSWithRNDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDEA7420F1E68700720A56 /* IOSWithRNDemoUITests.m */; };
 		42DDEA8420F1EA7600720A56 /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DDEA8320F1EA7600720A56 /* RNViewController.m */; };
-		95508BCAE22865AE4CF35E49 /* Pods_IOSWithRNDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EDB81913AF5B54AA94429B /* Pods_IOSWithRNDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 		42DDEA8320F1EA7600720A56 /* RNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
 		4F8F40573177494532A08E8C /* Pods-IOSWithRNDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWithRNDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSWithRNDemo/Pods-IOSWithRNDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C0AEE7F37F99F41424E202D3 /* Pods-IOSWithRNDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSWithRNDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSWithRNDemo/Pods-IOSWithRNDemo.release.xcconfig"; sourceTree = "<group>"; };
-		D2EDB81913AF5B54AA94429B /* Pods_IOSWithRNDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSWithRNDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61FF9760F0860B5652C3966 /* libPods-IOSWithRNDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSWithRNDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95508BCAE22865AE4CF35E49 /* Pods_IOSWithRNDemo.framework in Frameworks */,
+				101AF33993159FB6797218B3 /* libPods-IOSWithRNDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 			children = (
 				4289F45F20F3000D006BB648 /* libstdc++.tbd */,
 				4289F45E20F2FFC6006BB648 /* yoga.framework */,
-				D2EDB81913AF5B54AA94429B /* Pods_IOSWithRNDemo.framework */,
+				F61FF9760F0860B5652C3966 /* libPods-IOSWithRNDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -341,7 +341,6 @@
 				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
 				"${BUILT_PRODUCTS_DIR}/React/React.framework",
 				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
-				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -349,7 +348,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

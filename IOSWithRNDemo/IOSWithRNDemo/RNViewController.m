@@ -21,7 +21,7 @@
     NSURL *jsCodeLocation;
     jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.bundle?platform=ios&dev=true"];
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                        moduleName:@"IOSWithRNDemo"
+                                                        moduleName:@"learnRN"
                                                  initialProperties:nil
                                                      launchOptions:nil];
     rootView.frame = self.view.frame;

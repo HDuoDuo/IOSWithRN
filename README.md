@@ -38,3 +38,48 @@ pod ‘yoga', :path => ‘./RN/node_modules/react-native/ReactCommon/yoga'
 pod 'Folly', :podspec => ‘./RN/node_modules/react-native/third-party-podspecs/Folly.podspec'
 
 
+####################new branch ###############
+
+总结：
+
+1.直接通过localhost方式使用react native项目，react native 项目用VS Code单独开发，因为react native 项目的package.json使用的react native 版本不一致，因此将本项目中RN文件夹中的react native 版本更换，更换之后运行报错，主要是因为podfile文件的配置出现问题，更改（尤其oc项目关闭useFramework选项），pod文件内容如下：
+
+target 'IOSWithRNDemo' do
+#use_frameworks!
+pod 'React', :path => ‘./RN/node_modules/react-native', :subspecs => [
+'Core’,
+‘CxxBridge’,
+’RCTText',
+‘DevSupport’,
+‘RCTNetwork’,
+]
+pod ‘yoga', :path => ‘./RN/node_modules/react-native/ReactCommon/yoga’
+pod 'Folly', :podspec => ‘./RN/node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
